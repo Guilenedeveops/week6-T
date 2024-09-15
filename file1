@@ -1,0 +1,11 @@
+#user#
+
+resource "aws_iam_user" "ans" {
+  name = "ansible"
+}
+
+#group#
+
+resource "aws_iam_group" "ag" {
+  name = "ansible_group"
+}
